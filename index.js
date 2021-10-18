@@ -1,5 +1,5 @@
 class People = {
-  constractor(name,age){
+  constractor(name){
     this.name = name
   }
   walk(){
@@ -19,3 +19,5 @@ class People = {
 const student = new People("Abbas");
 student.walk();
 student.talk();
+student.sleep();
+
